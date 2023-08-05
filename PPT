@@ -1,0 +1,147 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{default}      
+  \usecolortheme{beaver}
+  \usefonttheme{structurebold} 
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+\subtitle{Batch-13 }
+
+\title{\LARGE MOTH ERADICATION}
+\date{February 4, 2023}
+\author[svecw]{\footnotesize\raggedright B.V.L.Kavya : 21B01A6111 : AIML\\ V.Valli Suvarna : 21B01A04B4 : ECE-B\\K.Roopa : 21B01A0330 : MECHANICAL\\ K.Swetha : 21B01A5453 : AIDS-B\\A.Kundanika: 21B01A0304 : MECHANICAL }
+\usefonttheme{serif}
+\usepackage{bookman}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usecolortheme{orchid}
+\beamertemplateballitem
+
+\begin{document}
+    \begin{frame}
+    \titlepage    
+    \end{frame}
+    \section{Python}
+\begin{frame}{\Huge \underline {Introduction}}
+
+The task is to determine the minimum length of the perimeter of the polygon which encloses all the traps within it. This listing's starting point is not important, but it must be clockwise and start and end at the same location. \\ 
+
+\end{frame}
+\section{Some \Latex{} Examples}
+\subsection{Tables and Figures}
+\begin{frame}{\small \underline {Approach}}
+\begin{itemize}
+
+
+
+
+\item We started solving the problem by importing sys and math modules to implement the distance and orientation functions.\\\vspace{0.3cm}
+\item The \boldsymbol{distance} function calculates the Euclidean distance between points given as input through the command line arguments in a 2D plane.\vspace{0.3cm}
+\item The \boldsymbol{orientation} function is used to determine the orientation of three points p, q, and r in a 2D plane by calculating the cross product of vectors formed by the points.\\\vspace{0.3cm}
+\item The \boldsymbol{convexhull} function computes the convex hull of a set of points in a 2D plane using Gift Wrapping algorithm and the main function will be executed, processing the command-line arguments passed to the script.\\\vspace{0.3cm}
+\end{itemize}
+\end{frame}
+\begin{frame}{\small \underline{Learnings}}
+\begin{itemize}
+\item We discovered that working together as a team is highly beneficial so that we can share all of our ideas for a better execution of our code.\\\vspace{0.3cm}
+\item We learned how to employ user-defined functions like distance, convexhull and orientation.\\\vspace{0.3cm}
+\item We learned about the fundamental computational geometry problem known as the \boldsymbol{convex hull} problem and used the \boldsymbol{gift-wrapping} approach to solve it.\\\vspace{0.3cm}
+\item We discovered how to use methods like append and format.\\\vspace{0.3cm}
+\item We learned about the git commands.\\\vspace{0.3cm}
+\item We gained knowledge about how to use LaTeX to create presentations.\\\vspace{0.3cm}
+\end{itemize}
+
+
+
+\end{frame}
+
+\begin{frame}{\small \underline {Challenges}}
+\begin{itemize}
+
+   \item We have faced the difficulty while dealing with the \boldsymbol{Convex 
+ hull} problem\\\vspace{0.3cm}
+  \item  We encountered some difficulties  while utilising the \boldsymbol{Gift Wrapping} algorithm to solve the convex hull problem.\\\vspace{0.3cm}
+  \item  We encountered some issues when examining the clockwise condition that is necessary for the given code.\\\vspace{0.3cm}
+\end{itemize}
+\end{frame}
+ \begin{frame}{\small \underline {Statistics}}
+ \begin{itemize} 
+ 
+
+  \item  The Python code has overall 65 lines.\\\vspace{0.3cm}
+  \item Two modules are imported.\\They are:\\
+   \hspace{0.6cm}1.sys module\\
+   \hspace{0.6cm}2.math module\\
+   \item The code has 4 user defined functions.\\They are:\\
+   \hspace{0.6cm}1.distance()\\
+   \hspace{0.6cm}2.orientation()\\
+   \hspace{0.6cm}3.convexhull()\\
+   \hspace{0.6cm}4.main()\\
+   
+   \item The code has following methods.\\They are:\\
+   \hspace{0.6cm}1.append()\\
+   \hspace{0.6cm}2.format()\\
+  \end{itemize} 
+\end{frame}
+\begin{frame}{\Huge  \underline{Demo/Screenshots}}
+\begin{figure}[htp]
+  \centering\includegraphics[width=9cm]
+  {detailofconvexhull.png}
+  \caption{Convex Hull}
+  \label{fig.code1}
+  \end{figure}
+  \end{frame}   
+\begin{frame}{\Huge \underline{Demo/Screenshots}}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=8cm]{overview.jpeg}
+   \caption{Representation of Convex Hull}
+   \label{fig:code2}
+   \end{figure}
+
+    
+\end{frame}
+\begin{frame}{\Huge \underline{Demo/Screenshots}}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=12cm]{part1.png}
+   \caption{Code part-1}
+   \label{fig:code1}
+   \end{figure}
+ \end{frame}
+ \begin{frame}{\Huge \underline{Demo/Screenshots}}
+\begin{figure}[htp]
+
+  \includegraphics[width=11cm]{part2.png}
+   \caption{Code part-2}
+   \label{fig:code2}
+   \end{figure}
+
+    
+\end{frame}
+ \begin{frame}{\Huge \underline{Demo/Screenshots}}
+\begin{figure}[htp]
+  
+  \includegraphics[width=11cm]{part6.png}
+   \caption{Code part-3}
+   \label{fig:code3}
+   \end{figure}
+\end{frame}
+\begin{frame}
+\center\Huge \textcolor{black}
+{\raggedmiddle\textbf{THANK YOU}}
+
+  
+\end{frame}
+
+
+\end{document}
